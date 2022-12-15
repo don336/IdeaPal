@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #333;
+    color: #fff;
+    line-height: 1.6em;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+/* utilities */
+.bg-light {
+    color: yellow;
+}
+
+.py-1 {
+    margin-top: 10px;
+}
+
+.btn {
+    padding: 10px;
+    margin: 5px 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-light:hover {
+    background: #fff;
+}
+
+.btn-blue:hover {
+    background-color: darkcyan;
+}
+
+.btn2 {
+    background: skyblue;
+    
+}
+
+.btn2 a {
+    color: #fff;
+}
+
+.btn2 a {
+    color: #fff;
+}
+
+
+.container {
+    margin: 30px auto;
+    max-width: 350px;
+    padding: 20px 0;
+    background: #222;
+    border-radius: 5px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.card #profile{
+    margin-top: -20px;
+    text-align: center;
+}
+
+.box {
+    padding: 20px;
+}
+
+#footer {
+    display: flex;
+
+}
+
+#footer .items {
+    flex: 1;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #333;
+    color: #fff;
+    line-height: 1.6em;
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+/* utilities */
+.bg-light {
+    color: yellow;
+}
+
+.py-1 {
+    margin-top: 10px;
+}
+
+.btn {
+    padding: 10px;
+    margin: 5px 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.btn-light:hover {
+    background: #fff;
+}
+
+.btn-blue:hover {
+    background-color: darkcyan;
+}
+
+.btn2 {
+    background: skyblue;
+    
+}
+
+.btn2 a {
+    color: #fff;
+}
+
+.btn2 a {
+    color: #fff;
+}
+
+
+.container {
+    margin: 30px auto;
+    max-width: 350px;
+    padding: 20px 0;
+    background: #222;
+    border-radius: 5px;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.card #profile{
+    margin-top: -20px;
+    text-align: center;
+}
+
+.box {
+    padding: 20px;
+}
+
+#footer {
+    display: flex;
+
+}
+
+#footer .items {
+    flex: 1;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
