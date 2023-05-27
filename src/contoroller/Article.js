@@ -74,7 +74,7 @@ class Controller {
         }
       );
 
-      return res.status(200).json({
+      return res.status(204).json({
         message: "Article updated!",
         updatedArticle,
       });

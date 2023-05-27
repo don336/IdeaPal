@@ -5,8 +5,8 @@ const doc = {
     title: "IdeaPal",
     description: "This is an Article Application",
   },
-  host: "localhost:8000",
-  schemes: ["http"],
+  host: "ideapal.onrender.com",
+  schemes: ["https"],
 };
 
 const outputFile = "./swagger-output.json";

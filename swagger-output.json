@@ -5,10 +5,10 @@
     "description": "This is an Article Application",
     "version": "1.0.0"
   },
-  "host": "localhost:8000",
+  "host": "ideapal.onrender.com",
   "basePath": "/",
   "schemes": [
-    "http"
+    "https"
   ],
   "paths": {
     "/api/v1/articles/": {
