@@ -1,11 +1,11 @@
-import Article from '../Models/Article';
+import Article from "../Models/Article";
 
 class Controller {
   static async getArticles(req, res) {
     const articles = await Article.find();
 
     return res.status(200).json({
-      message: 'Articles Found',
+      message: "Articles Found",
       articles,
     });
   }
@@ -18,12 +18,12 @@ class Controller {
 
       if (!article) {
         return res.status(400).json({
-          message: 'Article not found',
+          message: "Article not found",
         });
       }
 
       return res.status(200).json({
-        message: 'article found',
+        message: "article found",
         article,
       });
     } catch (error) {
@@ -39,7 +39,7 @@ class Controller {
 
       if (!title || !description) {
         return res.status(422).json({
-          message: 'All fields are required',
+          message: "All fields are required",
         });
       }
 
@@ -49,7 +49,7 @@ class Controller {
       });
 
       return res.status(201).json({
-        message: 'Article created',
+        message: "Article created",
         newArticle,
       });
     } catch (error) {
@@ -75,7 +75,7 @@ class Controller {
       );
 
       return res.status(200).json({
-        message: 'Article updated!',
+        message: "Article updated!",
         updatedArticle,
       });
     } catch (error) {
@@ -92,7 +92,7 @@ class Controller {
       await Article.findByIdAndDelete({ _id: id });
 
       return res.status(200).json({
-        message: 'Article Deleted',
+        message: "Article Deleted",
       });
     } catch (error) {
       return res.status(500).json({
