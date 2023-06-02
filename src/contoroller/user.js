@@ -1,7 +1,7 @@
 import Jwt from "jsonwebtoken";
 import bcrypt from "bcrypt";
 import { v4 as uuidv4 } from "uuid";
-import User from "../model/user";
+import User from "../Models/user";
 
 class UserController {
   static async registeration(req, res) {
